@@ -1,0 +1,127 @@
+.demanda-container {
+    width: 100%;
+    max-width: 1180px;
+    padding: 0 30px;
+    margin: 32px auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.demanda-container header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+.demanda-container header span {
+    font-size: 20px;
+    margin-left: auto;
+    color: #3254AC;
+}
+
+.demanda-container header p {
+    font-size: 14px;
+    margin-top: auto;
+    margin-right: auto;
+    color: #3254AC;
+}
+
+.demanda-container header button {
+    width: 60px;
+    height: 60px;
+    border-radius: 4px;
+    border: 1px solid #dcdce6;
+    background: transparent;
+    margin-left: 16px;
+    transition: border-color 0.2s;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.demanda-container header a:hover {
+    border-color: #999;
+
+}
+
+.imgProcessos {
+    margin-left: auto;
+}
+
+.demanda-container .ListProcessos{
+    width: 100%;
+    max-width: 1180px;
+
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+.demanda-container .ListProcessos ul {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 24px;
+    list-style: none;
+
+    width: 100%;
+    max-width: 1180px;
+}
+
+.demanda-container .ListProcessos ul li {
+    background-color: #FFF;
+    padding: 24px;
+    border-radius: 8px;
+    position: relative;
+
+    width: 100%;
+    max-width: 1180px;
+    
+    word-wrap: break-word;
+  
+}
+
+.demanda-container .ListProcessos ul li a {
+    display: flex;
+    margin: auto;
+}
+
+.demanda-container .ListProcessos ul li button {
+    position: absolute;
+    right: 24px;
+    top: 24px;
+    border: 0;
+    background-color: #FFF;
+}
+
+.demanda-container .ListProcessos ul li button:hover {
+    opacity: 0.8;
+}
+
+.demanda-container .ListProcessos ul li strong {
+    display: block;
+    margin-bottom: 16px;
+    color: #41414d;
+}
+
+.demanda-container .ListProcessos ul li p+strong {
+    margin-top: 32px;
+}
+
+.demanda-container .ListProcessos ul li p {
+    color: #737380;
+    line-height: 21px;
+    font-size: 16px;
+}
+
+.demanda-container .ListProcessos ul li a {
+    color: #737380;
+    line-height: 21px;
+    font-size: 16px;
+    margin-bottom: 16px;
+
+}
